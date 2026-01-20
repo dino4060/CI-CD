@@ -6,7 +6,7 @@ export default function Nhan() {
   const router = useRouter();
 
   const handleNavigate = () => {
-    router.push("/home");
+    router.push("/");
   };
 
   return (
