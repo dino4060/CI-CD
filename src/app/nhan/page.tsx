@@ -17,7 +17,7 @@ export default function Nhan() {
             Nguyen Trung Nhan
           </h1>
           <p className="text-xl text-zinc-600 dark:text-zinc-400">
-            Full stack skills - React - Java - SQL - CI/CD
+            Full stack skills - React - Java - SQL/NoSQL - CI/CD
           </p>
           <div className="w-full max-w-2xl">
             <h2 className="text-2xl font-semibold text-black dark:text-zinc-50 mb-6">
