@@ -40,7 +40,7 @@ describe("Nhan Page", () => {
   // Test 3: Skills check
   it("displays the correct skill stack string", () => {
     render(<Nhan />);
-    const skillsText = screen.getByText(/React - Java - SQL - CI\/CD/i);
+    const skillsText = screen.getByText(/React - Java - SQL\/NoSQL - CI\/CD/i);
     expect(skillsText).toBeInTheDocument();
   });
 
@@ -63,10 +63,10 @@ describe("Nhan Page", () => {
     render(<Nhan />);
     // Check if the page title is H1 and Projects is H2
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
-      "Nguyen Trung Nhan"
+      "Nguyen Trung Nhan",
     );
     expect(screen.getByRole("heading", { level: 2 })).toHaveTextContent(
-      "Projects"
+      "Projects",
     );
   });
 });
