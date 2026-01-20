@@ -9,6 +9,8 @@ on:
 
 jobs:
   build:
+    if: github.head_ref != 'production'
+
     runs-on: ubuntu-latest
 
     strategy:
