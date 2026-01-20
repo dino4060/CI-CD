@@ -40,7 +40,7 @@ describe("Nhan Page", () => {
   // Test 3: Skills check
   it("displays the correct skill stack string", () => {
     render(<Nhan />);
-    const skillsText = screen.getByText(/React - Java - SQL - CI\/CD/i);
+    const skillsText = screen.getByText(/React - Java - SQL\/NoSQL - CI\/CD/i);
     expect(skillsText).toBeInTheDocument();
   });
 
